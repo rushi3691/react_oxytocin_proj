@@ -9,7 +9,26 @@
 }
 
 .App .column {
-    width: 30%;
+    width: 20%;
+}
+.column{
+    margin-bottom: 10px;
+    background-color: darkgray;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 7px;
+    .close-group{
+        position: static;
+        width: 15px;
+        height: 15px;
+        left: 30px;
+        right: 300px;
+        transition: transform .3s ease;
+        &:hover {
+            transform: scale(1.6);
+        }
+    }
 }
 
 .droppable-col {
